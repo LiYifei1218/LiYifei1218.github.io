@@ -31,4 +31,5 @@ export const aboutMe: AboutMe = {
   linkedinUsername: "liyifei1218",
   institutionUrl: "https://www.grasp.upenn.edu/",
   altName: "李逸飞",
+  // funDescription: "<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=LRd6RYhElVEmP2-k9Dy4aw0pqw_LN4er-HdO8SK1jiE'></script>",
 };

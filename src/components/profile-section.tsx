@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useEffect } from "react";
 import {
   Github,
   Linkedin,
@@ -14,6 +17,14 @@ interface ProfileSectionProps {
 }
 
 export function ProfileSection({ aboutMe }: ProfileSectionProps) {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.id = "mapmyvisitors";
+    script.src =
+      "https://mapmyvisitors.com/map.js?cl=e3dcd5&w=240&t=n&d=LRd6RYhElVEmP2-k9Dy4aw0pqw_LN4er-HdO8SK1jiE&co=fffcf8&cmo=ffd0d0&cmn=52b052";
+    document.getElementById("map-widget")?.appendChild(script);
+  }, []);
+
   if (!aboutMe) {
     return null;
   }
@@ -154,6 +165,10 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
             </>
           )}
         </div>
+        <div className="space-y-2">
+          <a id="map-widget" className="inline-flex items-center" />
+        </div>
+
       </div>
     </div>
   );
