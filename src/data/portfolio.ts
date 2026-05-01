@@ -9,16 +9,18 @@ export interface Portfolio {
 
 export const portfolioData: Portfolio[] = [
   {
-    title: "RL for Autonomous Quadcopter Racing",
+    title: "Reinforcement Learning for Autonomous High-Speed Quadcopter Racing",
     description:
       "Implementing PPO in rsl_rl framework and training an autonomous quadcopter racing policy in NVIDIA Isaac Lab.",
     technologies: ["Python", "PyTorch", "Isaac Lab", "PPO"],
+    codeUrl: "https://github.com/LiYifei1218/ese651_project/tree/circle_baseline",
   },
   {
     title: "Autonomous Pick-and-Place with 7-DOF Robot Arm",
     description:
       "Full-stack motion planning pipeline using custom FK/IK solvers with null space optimization for the Franka Emika Panda. Achieved 95% success in simulation and 70% on hardware.",
-    technologies: ["Python", "ROS", "Motion Planning"],
+    technologies: ["Python", "ROS", "Manipulation", "Motion Planning"],
+    codeUrl: "https://github.com/LiYifei1218/meam520_final",
   },
   {
     title: "HJB-Seeded Learning for Quadrotor Control",
