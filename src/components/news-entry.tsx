@@ -24,7 +24,10 @@ export function NewsEntry({ news }: { news: News }) {
             news.title
           )}
         </h3>
-        <p className="text-sm text-zinc-600">{news.description}</p>
+        <p
+          className="text-sm text-zinc-600 [&_a]:underline [&_a]:text-zinc-900 [&_a:hover]:text-zinc-600 [&_a]:transition-colors [&_a]:duration-300"
+          dangerouslySetInnerHTML={{ __html: news.description }}
+        />
       </div>
     </div>
   );

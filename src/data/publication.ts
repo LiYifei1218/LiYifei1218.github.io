@@ -15,6 +15,17 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
   {
+    year: "2027",
+    conference: "ICRA",
+    title:
+      "Memory-Aware Multi-Sensor Perception for Efficient and Safe Navigation in Dynamic Environments",
+    authors:
+      "Li Jingshuo, Yifan Xue, Yifei Li, Shubhodeep Shiv Aditya, Nadia Figueroa",
+    award: "Under Review",
+    tldr: "A memory-aware multi-sensor perception framework that leverages temporal memory to enable efficient and safe robot navigation in dynamic environments.",
+    keywords: ["Multi-Sensor Perception", "Safe Navigation", "Dynamic Environments"],
+  },
+  {
     year: "2026",
     conference: "IEEE RA-L",
     title:

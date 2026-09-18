@@ -5,6 +5,7 @@ export interface AboutMe {
   description: string;
   email: string;
   imageUrl?: string;
+  imageUrlAlt?: string; // Shown on hover over the profile photo
   blogUrl?: string;
   cvUrl?: string;
   googleScholarUrl?: string;
@@ -22,9 +23,10 @@ export const aboutMe: AboutMe = {
   title: "Masters Student in Robotics",
   institution: "University of Pennsylvania",
   description:
-    "I'm currently a first-year master's student in Robotics at the <a href='https://www.grasp.upenn.edu/'>GRASP Laboratory</a>, University of Pennsylvania. My research interests span safe localization and planning, vision-language-action models, and reinforcement learning.<br/><br/><br/><br/>Previously in 2025, I completed my B.S. in Computer Engineering and Computer Science at <a href='https://washu.edu/'>Washington University in St. Louis</a>, where I worked on safe planning with conformalized semantic maps with <a href='https://engineering.washu.edu/academics/student-profiles/David-Sundarsingh.html'>David Sundarsingh</a> in <a href='https://sites.wustl.edu/kantaroslab/'>Prof. Yiannis Kantaros' lab</a>.",
+    "I'm currently a second-year master's student in Robotics at the <a href='https://www.grasp.upenn.edu/'>GRASP Laboratory</a>, University of Pennsylvania. My research interests span safe localization and planning, vision-language-action models, and reinforcement learning.<br/><br/><br/><br/>Previously in 2025, I completed my B.S. in Computer Engineering and Computer Science at <a href='https://washu.edu/'>Washington University in St. Louis</a>, where I worked on safe planning with conformalized semantic maps with <a href='https://engineering.washu.edu/academics/student-profiles/David-Sundarsingh.html'>David Sundarsingh</a> in <a href='https://sites.wustl.edu/kantaroslab/'>Prof. Yiannis Kantaros' lab</a>.",
   email: "liyf[at]seas.upenn.edu",
-  imageUrl: "/images/profile.jpg",
+  imageUrl: "/images/profile-main.jpg",
+  imageUrlAlt: "/images/profile-alt.jpg",
   cvUrl: "/resume-feb18-2026.pdf",
   googleScholarUrl: "https://scholar.google.com/citations?user=02C0MMkAAAAJ&hl",
   githubUsername: "LiYifei1218",
