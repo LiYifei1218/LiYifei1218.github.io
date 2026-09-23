@@ -5,6 +5,7 @@ export interface Publication {
   authors: string;
   paperUrl?: string;
   codeUrl?: string;
+  projectUrl?: string;
   poster?: string;
   bibtex?: string;
   tldr?: string;
@@ -29,10 +30,12 @@ export const publicationData: Publication[] = [
     year: "2026",
     conference: "IEEE RA-L",
     title:
-      "Safe Planning in Unknown Environments using Conformalized Semantic Maps",
+      "Safe Planning in Unknown Environments Using Conformalized Semantic Maps",
     authors:
       "David Smith Sundarsingh, Yifei Li, Tianji Tang, George J. Pappas, Nikolay Atanasov, Yiannis Kantaros",
     paperUrl: "https://arxiv.org/abs/2509.25124",
+    projectUrl: "/projects/conformal-semantic-planning",
+    imageUrl: "/projects/conformal-semantic-planning/teaser.png",
     tldr: "A semantic planner for reach-avoid tasks that integrates conformal prediction to quantify semantic map uncertainty without assuming noise distributions, achieving tasks with user-defined probability.",
     keywords: ["Semantic Mapping", "Conformal Prediction", "Planning under Uncertainty"],
   },
