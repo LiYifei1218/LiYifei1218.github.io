@@ -27,7 +27,7 @@ export const aboutMe: AboutMe = {
   email: "liyf[at]seas.upenn.edu",
   imageUrl: "/images/profile-main.jpg",
   imageUrlAlt: "/images/profile-alt.jpg",
-  cvUrl: "/resume-feb18-2026.pdf",
+  cvUrl: "/resume-nov09-2026.pdf",
   googleScholarUrl: "https://scholar.google.com/citations?user=02C0MMkAAAAJ&hl",
   githubUsername: "LiYifei1218",
   linkedinUsername: "liyifei1218",
